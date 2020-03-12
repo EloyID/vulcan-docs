@@ -201,7 +201,7 @@ const RoomIdFilter = ({ field, options, filters = { [checkboxOperator]: [] }, se
   ]}
   showNew={Users.isAdmin(currentUser)}
   showEdit={Users.isAdmin(currentUser)}
-  newFormOptions={{
+  newFormProps={{
     removeFields: [
       'source',
       'status',
